@@ -14,7 +14,34 @@ namespace MvcMovie.Controllers
         {
             return View();
         }
-
+        public IActionResult Info()
+        {
+            return View();
+        }
+        public IActionResult Time()
+        {
+            return View();
+        }
+        public IActionResult List()
+        {
+            return View();
+        }
+        public IActionResult List2()
+        {
+            return View();
+        }
+        public IActionResult List3()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Daohang()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

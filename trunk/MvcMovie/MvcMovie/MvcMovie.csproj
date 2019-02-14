@@ -7,12 +7,21 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Content\CSS\" />
-    <Folder Include="Content\JS\" />
-    <Folder Include="Content\IMG\" />
+    <None Include="wwwroot\css\base.css" />
+    <None Include="wwwroot\css\m.css" />
+    <None Include="wwwroot\js\comm.js" />
+    <None Include="wwwroot\js\jquery-1.8.3.min.js" />
+    <None Include="wwwroot\js\modernizr.js" />
+    <None Include="wwwroot\js\page.js" />
+    <None Include="wwwroot\js\page2.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
 
 </Project>
