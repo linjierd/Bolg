@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Content\**" />
+    <Content Remove="Content\**" />
+    <EmbeddedResource Remove="Content\**" />
+    <None Remove="Content\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
@@ -18,10 +25,6 @@
     <None Include="wwwroot\js\modernizr.js" />
     <None Include="wwwroot\js\page.js" />
     <None Include="wwwroot\js\page2.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Content\" />
   </ItemGroup>
 
 </Project>
